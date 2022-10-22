@@ -1,0 +1,74 @@
+body{
+    background-image: url("assects/Untitled.jpg");
+     width: 100%;
+    overflow-x: hidden;
+ }
+
+.header{
+    background-color:white;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.border-box{
+background: rgb(255, 255, 255); 
+box-shadow: 0 1px 5px 0 rgba(0,0,0,0.05); 
+border: 0 solid rgb(230,232,235); 
+border-top-width: 0px; 
+border-bottom-width: 0px; 
+border-top-width: 1px;
+border-bottom-width: 1px; 
+margin-top: 20px;
+}
+.nav-box{
+color: black; 
+font-size: 1.07rem; 
+padding: 16px; 
+min-width: 110px;
+}
+
+li a:hover {
+    background-color:red;
+    color: rgb(255, 255, 255);
+    background-image: url(assects/hover.jpg);
+  }
+
+.btn {
+    height: 50px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .footer {
+    width: 100%;
+    height: 472px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+ }
+
+ .footer a {
+    text-decoration: none;
+ }  
+
+ .footer i{
+    line-height: 25px;
+ }
+
+ ul li {
+  width: 12pc;
+  text-align: center;
+}
+.btn , .btn-block{
+
+  background-color: #008000;
+  color: white;
+}
+.btn-block:hover{
+  background-color: red;
+}
